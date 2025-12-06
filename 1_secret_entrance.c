@@ -4,7 +4,7 @@ enum { BUF_SIZE = 10 };
 
 int get_line(char buf[], int len);
 
-int main() {
+int main(void) {
   char buf[BUF_SIZE];
 
   int number_of_zeros = 0;
